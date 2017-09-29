@@ -30,8 +30,10 @@ Dentro de Android Studio:
     <center>
         <img src="/img/original.png" width="300">
     </center>
-     <center>
-            <img src="/img/prueva.png" width="300">
-        </center>
+</div>
+<div align="center">
+    <center>
+        <img src="/img/original.png" width="300">
+    </center>
 </div>
 <br><br>
