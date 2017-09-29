@@ -24,15 +24,14 @@ Dentro de Android Studio:
 * Build --> Rebuild Project
 * Run
 
-## Captura
+## Captura de Pantalla
 
 <div align="center">
     <center>
-        <img src="/drawable/original.png" width="300">
+        <img src="/img/original.png" width="300">
     </center>
      <center>
-            <img src="/drawable/prueva.png" width="300">
+            <img src="/img/prueva.png" width="300">
         </center>
 </div>
 <br><br>
-<a href="http://www.miramicodigo.com" target="_blank">@Gusn8</a>
