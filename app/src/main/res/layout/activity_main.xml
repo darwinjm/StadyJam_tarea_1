@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uno"
+    android:orientation="vertical"
+    tools:context="com.example.dell.login2.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#000"
+        android:alpha="0.8">
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/uno"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="5dp"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true">
+<ImageView
+    android:layout_width="260dp"
+    android:layout_height="150dp"
+    android:src="@drawable/logo1"
+    android:layout_marginTop="2dp"
+    android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Sing in with social networks"
+        android:textColor="@color/colorPrimary"/>
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/dos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uno"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="53dp"
+            android:background="@drawable/goog"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/colorAccent"
+            android:onClick="google"
+            />
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="53dp"
+            android:background="@drawable/twitt"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:onClick="twitter"/>
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="53dp"
+            android:background="@drawable/face"
+            android:layout_marginRight="50dp"
+            android:onClick="facebook"/>
+
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/tres"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_below="@id/dos"
+    android:layout_marginTop="15dp">
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="1dp"
+        android:background="#fff"
+        android:layout_gravity="center">
+    </View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+
+        android:gravity="center_vertical"/>
+    <View
+        android:layout_width="80dp"
+        android:layout_height="1dp"
+        android:background="#fff"
+        android:layout_gravity="center">
+    </View>
+
+</LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/tres"
+        android:layout_marginTop="10dp"
+        >
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="  USERNAME"
+            android:textColorHint="#fff"
+            android:textSize="15dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/boton"
+            />
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:ems="5"
+            android:layout_gravity="center"
+            android:inputType="numberPassword"
+            android:hint=" PASSWORD"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:textSize="15dp"
+
+            android:background="@drawable/boton"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:text="@string/contra"
+            android:background="#01AC9A"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tex1"
+            android:layout_width="150dp"
+            android:layout_height="15dp"
+            android:text="Don't have account?"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"/>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Sing in new"
+            android:layout_gravity="center"
+            android:textColor="#01AC9A"
+            android:elegantTextHeight="true"/>
+    </LinearLayout>
+
+</RelativeLayout>
