@@ -119,7 +119,7 @@
             android:inputType="textPersonName"
             android:hint="  USERNAME"
             android:textColorHint="#fff"
-            android:textSize="15dp"
+            android:textSize="18sp"
             android:textColor="#ffffff"
             android:background="@drawable/boton"
             />
@@ -133,7 +133,7 @@
             android:hint=" PASSWORD"
             android:textColorHint="#fff"
             android:textColor="#fff"
-            android:textSize="15dp"
+            android:textSize="18sp"
 
             android:background="@drawable/boton"
             />
@@ -143,9 +143,11 @@
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:text="@string/contra"
+            android:textSize="25sp"
+            android:textAllCaps="false"
             android:background="#01AC9A"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold"/>
+            />
         <TextView
             android:id="@+id/tex1"
             android:layout_width="150dp"
